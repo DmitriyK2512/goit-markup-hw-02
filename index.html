@@ -17,95 +17,103 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
-      <a href="./"><span>Web</span>Studio</a>
+    <header class="header">
+      <a class="header-logo" href="./"><span>Web</span>Studio</a>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="">Студія</a>
+      <nav class="header-nav">
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Студія</a>
           </li>
-          <li>
-            <a href="">Портфоліо</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Портфоліо</a>
           </li>
-          <li>
-            <a href="">Контакти</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-list">
+        <li class="header-list-inem">
+          <a class="header-mailto" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="header-list-inem">
+          <a class="header-contact-phone-number" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
-    <!-- Уникальный контент -->
     <main>
       <!-- Секция с заголовком h1 и кнопкой -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
+
       <!-- Секция без заголовка h2.  
         Создаю заголовок h2 и при дальнейшем оформлении скрою его от пользователей
         Размечаю секцию в виде списка - заголовок + абзац  -->
-      <section>
+      <section class="benefits">
         <h2>Наші переваги</h2>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+        <ul class="benefits-list">
+          <li class="benefits-list-item">
+            <h3 class="benefits-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="benefits-list-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+          <li class="benefits-list-item">
+            <h3 class="benefits-list-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="benefits-list-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="benefits-list-item">
+            <h3 class="benefits-list-title">ПЛАНУВАННЯ</h3>
+            <p class="benefits-list-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="benefits-list-item">
+            <h3 class="benefits-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="benefits-list-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <!-- Список из картпнок -->
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
+
+      <!-- Список из картинок -->
+      <section class="work">
+        <h2 class="work-title">Чим ми займаємося</h2>
+        <ul class="work-list">
+          <li class="work-list-item">
             <img
+              class="work-list-item-img"
               src="./images/working_1.jpg"
               alt="Руки на клавіатурі перед монітором"
               width="370"
               height="294"
             />
           </li>
-          <li>
+          <li class="work-list-item">
             <img
+              class="work-list-item-img"
               src="./images/working_2.jpg"
               alt="Рука тримає телефон"
               width="370"
               height="294"
             />
           </li>
-          <li>
+          <li class="work-list-item">
             <img
+              class="work-list-item-img"
               src="./images/working_3.jpg"
               alt="Рука тримає планшет"
               width="370"
@@ -114,53 +122,59 @@
           </li>
         </ul>
       </section>
+
       <!-- Портреты команды  -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <section class="portfolio">
+        <h2 class="portfolio-title">Наша команда</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-list-item-img"
               src="./images/igor_demyanenko.jpg"
               alt="Ігор Дем'яненко"
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="portfolio-list-item-title">Ігор Дем'яненко</h3>
+            <p class="portfolio-list-item-text">Product Designer</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-list-item-img"
               src="./images/olga_repina.jpg"
               alt="Ольга Рєпіна"
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="portfolio-list-item-title">Ольга Рєпіна</h3>
+            <p class="portfolio-list-item-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-list-item-img"
               src="./images/nikolai_tarasov.jpg"
               alt="Микола Тарасов"
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-list-item-title">Микола Тарасов</h3>
+            <p class="portfolio-list-item-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-list-item-img"
               src="./images/mikhail_ermakov.jpg"
               alt="Михайло Єрмаков"
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="portfolio-list-item-title">Михайло Єрмаков</h3>
+            <p class="portfolio-list-item-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
+
     <footer>
       <a href="./"><span>Web</span>Studio</a>
       <address>
