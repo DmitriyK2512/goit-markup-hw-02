@@ -8,29 +8,31 @@
 img{
     display: block;
 }
+.webstudio-blue{
+    color: #2196F3;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 /* header */
 /* логотип шапки */
 .header-logo{
     font-family: 'Raleway', sans-serif;
-    font-style: 700; 
+    font-weight: 700; 
     font-size: 26px; 
-    line-height: 31px; 
-    line-height: 100%; 
-    Align: Left Vertical; 
-    align: Top; 
-    Letter spacing: 3%;
+    line-height: 1.19;     
+    letter-spacing: 3%;
 }
 
 /* меню навигации */
-.menu-link{
-    font-family: 'Roboto', sans-serif;
+.menu-link{    
     font-style: Medium; 
     font-size: 14px; 
-    Line height: 1.14;
-    Align: Left Vertical;
-    align: Top;
-    Letter spacing: 2%;    
+    line-height: 1.14;   
+    letter-spacing: 2%;    
 }
 
 .menu-link:hover,
@@ -40,14 +42,11 @@ img{
 
 
 .header-mailto{
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
-    style: Medium; 
-    Font size: 14px; 
-    Line height: 1.14;
-    Align: Left Vertical; 
-    align: Top; 
-    Letter spacing: 2%;
+    color: #757575;    
+    font-style: Medium; 
+    font-size: 14px; 
+    line-height: 1.14;    
+    letter-spacing: 2%;
     
   }
 
@@ -57,14 +56,11 @@ img{
   }
 
   .header-contact-phone-number{
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
-    Font style: Medium; 
-    Font size: 14px 
-    Line height: 1.14;
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 2%
+    color: #757575;    
+    font-style: Medium; 
+    font-size: 14px 
+    line-height: 1.14;    
+    letter-spacing: 2%;
 
   }
 
@@ -72,27 +68,19 @@ img{
   .hero
   /* заголовок h1 */
 .hero-title{
-    color: #FFFFFF;
-    Font family: Roboto 
-    Font style: Black 
-    Font size: 44px 
-    Line height: 60px 
-    Line height: 116% 
-    Align: Center Vertical 
-    align: Top 
-    Letter spacing: 6%
+    color: #FFFFFF;    
+    font-style: Black; 
+    font-size: 44px;
+    line-height: 1.36;    
+    letter-spacing: 6%;
 }
 
 /* кнопка */
-.hero-btn{
-    Font family: Roboto 
-    Font style: Bold 
-    Font size: 16px 
-    Line height: 30px 
-    Line height: 160%     
-    Align: Center Vertical 
-    align: Center 
-    Letter spacing: 6%
+.hero-btn{    
+    font-style: Bold;
+    font-size: 16px; 
+    line-height: 1.9;     
+    letter-spacing: 6%;
 }
 
 /* benefits */
@@ -102,27 +90,19 @@ img{
 
 /* заголовок абзаца */
 .benefits-list-title{
-    color: #212121;
-    Font family: Roboto 
-    Font style: Bold 
-    Line height: 1.14;
-    Line height: 100% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #212121;    
+    font-style: Bold; 
+    font-size: 1.14;       
+    letter-spacing: 3%;
 }
 
 /* текст абзацев */
 .benefits-list-text{
-    color: #757575;
-    Font family: Roboto 
-    Font style: Regular 
-    Font size: 14px 
-    Line height: 24px 
-    Line height: 146% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #757575;    
+    font-style: Regular; 
+    font-size: 14px; 
+    line-height: 1.7;     
+    letter-spacing: 3%;
 }
 
 
@@ -130,15 +110,11 @@ img{
 .work
 /* заголовок секции h2*/
 .work-title{
-    color: #212121;
-    Font family: Roboto 
-    Font style: Bold 
-    Font size: 36px 
-    Line height: 42px 
-    Line height: 100% 
-    Align: Center Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #212121;    
+    font-style: Bold; 
+    font-size: 36px; 
+    line-height: 1.17;       
+    letter-spacing: 3%;
 }
 
 /* картинка */
@@ -148,15 +124,11 @@ img{
 .portfolio
 /* заголовок секции h2*/
 .portfolio-title{
-    color: #212121;
-    Font family: Roboto 
-    Font style: Bold 
-    Font size: 36px 
-    Line height: 42px 
-    Line height: 100% 
-    Align: Center Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #212121;    
+    font-style: Bold; 
+    font-size: 36px; 
+    line-height: 1.17;         
+    letter-spacing: 3%;
 }
 
 /* фото */
@@ -164,28 +136,20 @@ img{
 
 /* заголовок h3 */
 .portfolio-list-item-title{
-    color: #212121;
-    Font family: Roboto 
-    Font style: Medium 
-    Font size: 16px 
-    Line height: 19px 
-    Line height: 100% 
-    Align: Center Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #212121;    
+    font-style: Medium; 
+    font-size: 16px; 
+    line-height: 1.19;      
+    letter-spacing: 3%;
 }
 
 /* параграф */
 .portfolio-list-item-text{
-    color: #757575;
-    Font family: Roboto 
-    Font style: Regular 
-    Font size: 16px 
-    Line height: 19px 
-    Line height: 100% 
-    Align: Center Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #757575;   
+    font-style: regular; 
+    font-size: 16px; 
+    line-height: 1.19;       
+    letter-spacing: 3%;
 }
 
 
@@ -193,53 +157,38 @@ img{
 /* логотип в футере */
 .footer-logo{
     color: #FFFFFF;
-    Font family: Raleway 
-    Font style: Bold 
-    Font size: 26px 
-    Line height: 31px 
-    Line height: 100% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    font-family: 'Raleway', sans-serif;
+    font-style: Bold; 
+    font-size: 26px; 
+    line-height: 1.19;          
+    letter-spacing: 3%;
 }
 
 /* адрес с картой */
 .address-maps{
-    color: #FFFFFF;
-    Font family: Roboto 
-    Font style: Regular 
-    Font size: 14px 
-    Line height: 24px 
-    Line height: 146% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: #FFFFFF;   
+    font-style: Regular; 
+    font-size: 14px; 
+    line-height: 1.71;      
+    letter-spacing: 3%
 }
 
 /* почта */
 .footer-mailto{
-    color: rgba(255, 255, 255, 0.6);
-    Font family: Roboto 
-    Font style: Regular 
-    Font size: 14px 
-    Line height: 24px 
-    Line height: 146% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: rgba(255, 255, 255, 0.6);   
+    font-style: Regular; 
+    font-size: 14px; 
+    line-height: 1.71;         
+    letter-spacing: 3%;
 }
 
 /* телефон */
 .footer-contact-phone-number{
-    color: rgba(255, 255, 255, 0.6);
-    Font family: Roboto 
-    Font style: Regular 
-    Font size: 14px 
-    Line height: 24px 
-    Line height: 146% 
-    Align: Left Vertical 
-    align: Top 
-    Letter spacing: 3%
+    color: rgba(255, 255, 255, 0.6);    
+    font-style: Regular; 
+    font-size: 14px; 
+    line-height: 1.71;     
+    letter-spacing: 3%;
 }
 
 
