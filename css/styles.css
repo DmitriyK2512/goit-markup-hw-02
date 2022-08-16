@@ -1,0 +1,10 @@
+/* скидання налаштувань браузера */
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;    
+}
+img{
+    display: block;
+}
