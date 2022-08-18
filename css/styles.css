@@ -177,7 +177,8 @@ body {
 .portfolio-list-item-img
 
 /* заголовок h3 */
-.portfolio-list-item-title {
+.portfolio-list-item-title,
+.portfolio-link-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -185,7 +186,8 @@ body {
 }
 
 /* параграф */
-.portfolio-list-item-text {
+.portfolio-list-item-text,
+.portfolio-link-text {
     color: var(--secondary-color);
     font-weight: 400;
     font-size: 16px;
