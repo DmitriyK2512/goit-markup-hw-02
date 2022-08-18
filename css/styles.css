@@ -232,10 +232,19 @@ body {
     color: var(--primary-color);
     background-color: var(--accent-background-color);
     cursor: pointer;    
-} 
-.button:hover, :focus{    
+}
+
+.button-primary:hover,
+.button-primary:focus {
     background-color: #188CE8;
 }
+
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+}
+
 .button-primary{
     color: var(--additional-color);
     background-color: var(--accent-color);
@@ -244,4 +253,5 @@ body {
 .button-secondary{
     color: var(--primary-color);
     background-color: var(--accent-background-color);
+}
     
