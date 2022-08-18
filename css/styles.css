@@ -10,7 +10,6 @@
 img {
     display: block;
 }
-
 /* ------------------------------------- */
 :root {
     /* палитра цветов */
@@ -70,6 +69,10 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
+    color: var(--accent-color);
+}
+/* єффект текущей страницы*/
+.menu .link.current{
     color: var(--accent-color);
 }
 
@@ -137,8 +140,7 @@ body {
 
 /* текст абзацев */
 .benefits-list-text {
-    color: var(--secondary-color);
-    font-weight: 400;
+    color: var(--secondary-color);  
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 3%;
@@ -160,13 +162,13 @@ body {
 .work-list-item-img
 
 /* ------------------------------------------ */
-/* portfolio */
-.portfolio {
+/* team */
+.team {
     background-color: var(--accent-background-color);
 }
 
 /* заголовок секции h2*/
-.portfolio-title {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -174,10 +176,10 @@ body {
 }
 
 /* фото */
-.portfolio-list-item-img
+.team-list-item-img
 
 /* заголовок h3 */
-.portfolio-list-item-title,
+.team-list-item-title,
 .portfolio-link-title {
     font-weight: 500;
     font-size: 16px;
@@ -186,10 +188,9 @@ body {
 }
 
 /* параграф */
-.portfolio-list-item-text,
+.team-list-item-text,
 .portfolio-link-text {
-    color: var(--secondary-color);
-    font-weight: 400;
+    color: var(--secondary-color);    
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 3%;
@@ -203,8 +204,7 @@ body {
 /* адрес с картой */
 .address-maps {
     color: var(--additional-color);
-    font-style: normal;
-    font-weight: 400;
+    font-style: normal;    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%
@@ -213,8 +213,7 @@ body {
 .footer-mailto,
 .footer-contact-phone-number {
     color: var(--secondary-transparent-color);
-    font-style: normal;
-    font-weight: 400;
+    font-style: normal;    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
@@ -225,5 +224,22 @@ body {
 }
 .footer-mailto:hover,
 .footer-mailto:focus {
-    color: var(--accent-color);
+    color: var(--accent-color);    
+}
+/* ---------------------------------------------- */
+/* кнопка */
+.button{
+    color: var(--primary-color);
+    background-color: var(--accent-background-color);
+    cursor: pointer;
+} 
+.button-primary{
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+button-secondary{
+    color: var(--primary-color);
+    background-color: var(--accent-background-color);
+    cursor: pointer;
 }
