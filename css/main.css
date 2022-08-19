@@ -60,18 +60,84 @@ body {
 .menu-link {
     color: var(--primary-color);    
 }
-.header-list a {
-    color: var(--secondary-color);
-}
 .menu-link,
-.header-list a{
+.mailto,
+.contact-phone-number{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.mailto,
+.contact-phone-number {
+    color: var(--secondary-color);
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.mailto:hover,
+.mailto:focus {
+    color: var(--accent-color);
+}
 .current {
     color: var(--accent-color);
 }
 /* --------------------------------------------------------- */
+/* задний фон */
+.hero,
+.footer{
+    background-color: var(--secondary-background-color);
+}
+.team{
+    background-color: var(--accent-background-color);
+}
+/* ----------------------------------------------------------- */
+/* hero */
+.hero-title{
+    color: var(--additional-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+/*-------------------- */
+/* ---------------------------------------------- */
+/* кнопка */
+.button {    
+    cursor: pointer;    
+    font-size: 16px;    
+}
+.button-primary {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+.button-secondary {
+    color: var(--primary-color);
+    background-color: var(--accent-background-color);
+    font-weight: 500;    
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #188CE8;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+}
+/* ----------------------------------------------------------- */
+
+
 
