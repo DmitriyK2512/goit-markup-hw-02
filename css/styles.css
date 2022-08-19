@@ -10,12 +10,13 @@
 img {
     display: block;
 }
+
 /* ------------------------------------- */
 :root {
     /* палитра цветов */
     --primary-color: #212121;
     --secondary-color: #757575;
-    --secondary-transparent-color:rgba(255, 255, 255, 0.6);
+    --secondary-transparent-color: rgba(255, 255, 255, 0.6);
     --additional-color: #ffffff;
 
     --accent-color: #2196F3;
@@ -35,19 +36,20 @@ body {
 }
 
 /* -------------------------------------------- */
-/* логотип */
+/* logo */
+.accent {
+    color: var(--accent-color);
+}
+
 .logo {
     color: #000000;
-    font-family: var(--secondary-font-family);
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
-.logo > span{
-    color: var(--accent-color);
-}
-/* белый в футере */
+
 .footer .logo {
     color: var(--additional-color);
 }
@@ -55,185 +57,91 @@ body {
 .logo:hover {
     color: var(--accent-color);
 }
-.footer .logo:hover {
-    color: var(--accent-color);
-}
-/* ----------------------------------------------------- */
-/* меню навигации */
+
+/*-------------------------------------------------*/
+/* header */
+
 .menu-link {
+    color: var(--primary-color);
+}
+
+.menu-link,
+.mailto,
+.contact-phone-number {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
 }
-/* єффект текущей страницы*/
-.menu .link.current{
-    color: var(--accent-color);
-}
 
-/* ------------------------------------------------------ */
-/* ссылки в шапке */
-.mailto {
-    color: var(--secondary-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 2%;
-}
+.mailto,
 .contact-phone-number {
     color: var(--secondary-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 2%;
 }
+
 .contact-phone-number:hover,
 .contact-phone-number:focus {
     color: var(--accent-color);
 }
+
 .mailto:hover,
 .mailto:focus {
     color: var(--accent-color);
 }
 
-/* -------------------------------------------------- */
-/* hero */
-.hero {
+.current {
+    color: var(--accent-color);
+}
+
+/* --------------------------------------------------------- */
+/* задний фон */
+.hero,
+.footer {
     background-color: var(--secondary-background-color);
 }
 
-/* заголовок h1 */
+.team {
+    background-color: var(--accent-background-color);
+}
+
+/* ----------------------------------------------------------- */
+/* hero */
 .hero-title {
     color: var(--additional-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
-/* кнопка */
-.hero-btn {
-    color: var(--additional-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 6%;
-}
-
-/* ------------------------------------------------- */
-/* benefits */
-/* заголовок секции */
-.benefits-title
-
-/* заголовок абзаца */
-.benefits-list-title {
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 3%;
-}
-.benefits-list-title {
-    text-transform: uppercase;
-}
-/* текст абзацев */
-.benefits-list-text {
-    color: var(--secondary-color);  
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 3%;
-}
-
-/* -------------------------------------------------------------- */
-/* work */
-.work
-
-/* заголовок секции h2*/
-.work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 3%;
-}
-
-/* картинка */
-.work-list-item-img
-
-/* ------------------------------------------ */
-/* team */
-.team {
-    background-color: var(--accent-background-color);
-}
-
-/* заголовок секции h2*/
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 3%;
-}
-
-/* фото */
-.team-list-item-img
-
-/* заголовок h3 */
-.team-list-item-title,
-.portfolio-link-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 3%;
-}
-
-/* параграф */
-.team-list-item-text,
-.portfolio-link-text {
-    color: var(--secondary-color);    
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 3%;
-}
-
-/* ---------------------------------------- */
-/* footer */
-.footer {
-    background-color: var(--secondary-background-color);
-}
-/* адрес с картой */
-.address-maps {
-    color: var(--additional-color);
-    font-style: normal;    
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 3%
-}
-/* почта, телефон */
-.footer-mailto,
-.footer-contact-phone-number {
-    color: var(--secondary-transparent-color);
-    font-style: normal;    
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 3%;
-}
-.footer-contact-phone-number:hover,
-.footer-contact-phone-number:focus {
-    color: var(--accent-color);
-}
-.footer-mailto:hover,
-.footer-mailto:focus {
-    color: var(--accent-color);    
-}
+/*-------------------- */
 /* ---------------------------------------------- */
 /* кнопка */
-.button{
+.button {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-primary {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.button-secondary {
     color: var(--primary-color);
     background-color: var(--accent-background-color);
-    cursor: pointer;    
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .button-primary:hover,
@@ -242,20 +150,69 @@ body {
 }
 
 .button-secondary:hover,
-.button-secondary:focus{
+.button-secondary:focus {
     color: var(--additional-color);
     background-color: var(--accent-color);
 }
 
-.button-primary{
-    color: var(--additional-color);
-    background-color: var(--accent-color);
-    
-}
-.button-secondary{
-    color: var(--primary-color);
-    background-color: var(--accent-background-color);
+/* ----------------------------------------------------------- */
+.benefits-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
- 
- 
+.benefits-list-title {
+    text-transform: uppercase;
+}
+
+.benefits-list-text {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* --------------------------------------------------------- */
+/* заголовки для секции work и team */
+.section .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+/* ------------------------------------------------------- */
+/* team */
+.team-list-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-list-item-text {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* --------------------------------------------- */
+/* footer */
+.address-maps {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.address-maps:hover,
+.address-maps:focus {
+    color: var(--accent-color);
+}
