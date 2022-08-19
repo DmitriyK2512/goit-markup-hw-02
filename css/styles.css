@@ -137,7 +137,9 @@ body {
     line-height: 1.14;
     letter-spacing: 3%;
 }
-
+.benefits-list-title {
+    text-transform: uppercase;
+}
 /* текст абзацев */
 .benefits-list-text {
     color: var(--secondary-color);  
@@ -255,7 +257,5 @@ body {
     background-color: var(--accent-background-color);
 }
 
-.benefits-list-title{
-    text-transform: uppercase;    
-}
-
+ 
+ 
