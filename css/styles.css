@@ -44,7 +44,7 @@ body {
     line-height: 1.19;
     letter-spacing: 3%;
 }
-.logo-blue {
+.logo > span{
     color: var(--accent-color);
 }
 /* белый в футере */
@@ -254,4 +254,8 @@ body {
     color: var(--primary-color);
     background-color: var(--accent-background-color);
 }
-    
+
+.benefits-list-title{
+    text-transform: uppercase;    
+}
+
