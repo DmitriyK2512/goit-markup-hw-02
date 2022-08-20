@@ -33,6 +33,10 @@ body {
     color: var(--primary-color);
     font-family: var(--primary-font-family);
     background-color: var(--primary-background-color);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.9;
 }
 
 /* -------------------------------------------- */
@@ -47,7 +51,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    
 }
 
 .footer .logo {
@@ -68,8 +72,7 @@ body {
 .menu-link,
 .mailto,
 .contact-phone-number {
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 500;    
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -131,24 +134,19 @@ body {
 .button-primary {
     color: var(--additional-color);
     background-color: var(--accent-color);
-    font-weight: 700;
-    line-height: 1.9;
+    font-weight: 700;    
     letter-spacing: 0.06em;
 }
-
 .button-secondary {
     color: var(--primary-color);
     background-color: var(--accent-background-color);
     font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+    line-height: 1.6;    
 }
-
 .button-primary:hover,
 .button-primary:focus {
     background-color: #188CE8;
 }
-
 .button-secondary:hover,
 .button-secondary:focus {
     color: var(--additional-color);
@@ -157,10 +155,8 @@ body {
 
 /* ----------------------------------------------------------- */
 .benefits-list-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    font-weight: 700;    
+    line-height: 1.14;   
 }
 
 .benefits-list-title {
@@ -168,47 +164,33 @@ body {
 }
 
 .benefits-list-text {
-    color: var(--secondary-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    color: var(--secondary-color);    
+    line-height: 1.71;   
 }
-
 /* --------------------------------------------------------- */
 /* заголовки для секции work и team */
 .section .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.17;    
 }
-
 /* ------------------------------------------------------- */
 /* team */
 .team-list-item-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    line-height: 1.19;    
 }
-
 .team-list-item-text {
-    color: var(--secondary-color);
-    font-weight: 400;
+    color: var(--secondary-color);    
     font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    line-height: 1.19;    
 }
-
 /* --------------------------------------------- */
 /* footer */
 .address-maps {
-    color: var(--additional-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    color: var(--additional-color);    
+    line-height: 1.71;   
     font-style: normal;
 }
 
@@ -216,3 +198,18 @@ body {
 .address-maps:focus {
     color: var(--accent-color);
 }
+.address-maps > .mailto,
+.address-maps > .contact-phone-number {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio-*/
+.portfolio-link-title{    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-link-text{
+    color: var(--secondary-color);   
+    font-size: 16px;      
+}
+
