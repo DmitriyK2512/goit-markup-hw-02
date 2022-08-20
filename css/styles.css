@@ -88,7 +88,7 @@ body {
     color: var(--secondary-color);
 }
 
-.contact-phone-number:hover,
+/* .contact-phone-number:hover,
 .contact-phone-number:focus {
     color: var(--accent-color);
 }
@@ -96,7 +96,7 @@ body {
 .mailto:hover,
 .mailto:focus {
     color: var(--accent-color);
-}
+} */
 
 .current {
     color: var(--accent-color);
@@ -203,6 +203,16 @@ body {
 .address-maps > .contact-phone-number {
     color: rgba(255, 255, 255, 0.6);
 }
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.mailto:hover,
+.mailto:focus {
+    color: var(--accent-color);
+}
+/* ------------------------------------------------------ */
 /* portfolio-*/
 .portfolio-link-title{ 
     color: var(--primary-color);   
