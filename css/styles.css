@@ -34,7 +34,7 @@ body {
     font-family: var(--primary-font-family);
     background-color: var(--primary-background-color);
     letter-spacing: 0.03em;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.9;
 }
@@ -88,15 +88,6 @@ body {
     color: var(--secondary-color);
 }
 
-/* .contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: var(--accent-color);
-}
-
-.mailto:hover,
-.mailto:focus {
-    color: var(--accent-color);
-} */
 
 .current {
     color: var(--accent-color);
@@ -121,6 +112,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /*-------------------- */
@@ -154,13 +146,14 @@ body {
     background-color: var(--accent-color);
 }
 
-/* ----------------------------------------------------------- */
-.benefits-list-title {
-    font-weight: 700;    
-    line-height: 1.14;   
+.button-activ:active{
+    color: var(--accent-color);
 }
 
-.benefits-list-title {
+/* ----------------------------------------------------------- */
+.benefits-list-title {    
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
@@ -168,10 +161,23 @@ body {
     color: var(--secondary-color);    
     line-height: 1.71;   
 }
+/* скрываем заголовок */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 /* --------------------------------------------------------- */
 /* заголовки для секции work и team */
-.section .title {
-    font-weight: 700;
+.work-title,
+.team-title {   
     font-size: 36px;
     line-height: 1.17;    
 }
@@ -195,10 +201,7 @@ body {
     font-style: normal;
 }
 
-.address-maps:hover,
-.address-maps:focus {
-    color: var(--accent-color);
-}
+
 .address-maps > .mailto,
 .address-maps > .contact-phone-number {
     color: rgba(255, 255, 255, 0.6);
@@ -224,4 +227,5 @@ body {
     color: var(--secondary-color);   
     font-size: 16px;      
 }
+/*----------------------------------------------------------*/
 
